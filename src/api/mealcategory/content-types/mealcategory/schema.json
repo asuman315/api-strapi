@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mealcategories",
+  "info": {
+    "singularName": "mealcategory",
+    "pluralName": "mealcategories",
+    "displayName": "mealcategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mealsubcategories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::mealsubcategory.mealsubcategory",
+      "mappedBy": "mealcategories"
+    }
+  }
+}
