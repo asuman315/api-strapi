@@ -4,7 +4,8 @@
   "info": {
     "singularName": "meal",
     "pluralName": "meals",
-    "displayName": "Meal"
+    "displayName": "Meal",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,12 @@
       "type": "text"
     },
     "juice": {
+      "type": "text"
+    },
+    "beverage": {
+      "type": "text"
+    },
+    "accompaniment": {
       "type": "text"
     }
   }
