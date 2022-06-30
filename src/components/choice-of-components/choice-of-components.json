@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "components": {
+    "component": {
       "type": "string"
     },
     "options": {
