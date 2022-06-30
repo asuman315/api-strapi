@@ -33,6 +33,12 @@
     },
     "accompaniment": {
       "type": "text"
+    },
+    "additionalItems": {
+      "displayName": "Additional Items",
+      "type": "component",
+      "repeatable": false,
+      "component": "additional-items.additional-items"
     }
   }
 }

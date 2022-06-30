@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_additional_items_additional_items",
+  "info": {
+    "displayName": "Additional Items",
+    "icon": "layer-group"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
