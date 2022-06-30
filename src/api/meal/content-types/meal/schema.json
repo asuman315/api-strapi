@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meals",
+  "info": {
+    "singularName": "meal",
+    "pluralName": "meals",
+    "displayName": "Meal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "components": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "eggs": {
+      "type": "text"
+    },
+    "juice": {
+      "type": "text"
+    }
+  }
+}
