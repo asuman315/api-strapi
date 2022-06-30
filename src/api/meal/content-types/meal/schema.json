@@ -22,15 +22,6 @@
     "price": {
       "type": "decimal"
     },
-    "eggs": {
-      "type": "text"
-    },
-    "juice": {
-      "type": "text"
-    },
-    "beverage": {
-      "type": "text"
-    },
     "accompaniment": {
       "type": "text"
     },
@@ -50,6 +41,12 @@
       "type": "component",
       "repeatable": true,
       "component": "additional-items.additional-item"
+    },
+    "choiceOfComponents": {
+      "displayName": "Choice of components",
+      "type": "component",
+      "repeatable": true,
+      "component": "choice-of-components.choice-of-components"
     }
   }
 }

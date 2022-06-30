@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_choice_of_components_choice_of_components",
+  "info": {
+    "displayName": "Choice of components",
+    "icon": "child",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "components": {
+      "type": "string"
+    },
+    "options": {
+      "type": "text"
+    }
+  }
+}
