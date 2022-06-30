@@ -34,11 +34,22 @@
     "accompaniment": {
       "type": "text"
     },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
     "additionalItems": {
-      "displayName": "Additional Items",
+      "displayName": "Additional_Item",
       "type": "component",
-      "repeatable": false,
-      "component": "additional-items.additional-items"
+      "repeatable": true,
+      "component": "additional-items.additional-item"
     }
   }
 }
