@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customerfavorites",
+  "info": {
+    "singularName": "customerfavorite",
+    "pluralName": "customerfavorites",
+    "displayName": "customerfavorites"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "identity": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
