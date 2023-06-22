@@ -6,3 +6,5 @@ module.exports = ({ env }) => ({
     salt: env('API_TOKEN_SALT'),
   },
 });
+
+// Path: api-strapi\config\database.js
